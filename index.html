@@ -10,5 +10,57 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Mzwa</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+      <h1>Welcome to Mzwa Art and Graphics</h1>
+      <p>Discover unique art and graphic designs.</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>
+        Mzwa is dedicated to creating stunning art and graphics that inspire and
+        captivate.
+      </p>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <!-- Gallery items will go here -->
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Mzwa Art and Graphics. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
